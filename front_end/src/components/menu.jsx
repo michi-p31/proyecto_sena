@@ -1,15 +1,20 @@
-const menu = () =>{
-    return(
-        <nav>
-            <h2>Gestion de Bibloteca</h2>
-            <ul>
-                <li>Catalogo</li>
-                <li>Registrar libro</li>
-                <li>Prestamos</li>
-                <li>Usuarios</li>
-            </ul>
-        </nav>
-    );
+import "../styles/menu.css";
+
+const Menu = () => {
+  return (
+    <aside className="sidebar">
+      <h2 className="logo">Biblioteca</h2>
+
+      <nav>
+        <ul>
+          <i class="bi bi-bookmark-heart-fill"></i><li className="active"> Catálogo</li>
+          <li>Registrar libro</li>
+          <li>Préstamos</li>
+          <li>Usuarios</li>
+        </ul>
+      </nav>
+    </aside>
+  );
 };
 
 export default menu;

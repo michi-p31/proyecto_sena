@@ -20,7 +20,7 @@ const LibrarianHome = () => {
   ];
 
   return (
-    <main className="main-container">
+    <main className="main-content">
       <h1>Catálogo de libros</h1>
 
       <section className="catalog">

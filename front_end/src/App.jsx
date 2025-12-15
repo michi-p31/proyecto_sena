@@ -1,12 +1,12 @@
-import menu from "./components/menu.jsx";
+import Menu from "./components/Menu.jsx";
 import LibrarianHome from "./screens/LibrarianHome";
 
 function App() {
   return (
-    <>
-      <menu />
+    <div className="app-container">
+      <Menu />
       <LibrarianHome />
-    </>
+    </div>
   );
 }
 
