@@ -1,9 +1,9 @@
 import "../styles/layout.css";
 import "../styles/catalog.css";
 import BookCard from "../components/BookCard";
+import Header from "../components/Header";
 
 const LibrarianHome = () => {
-  // Datos simulados (luego los cambiamos por la API)
   const libros = [
     {
       id: 1,
@@ -21,6 +21,8 @@ const LibrarianHome = () => {
 
   return (
     <main className="main-content">
+      <Header /> {/* 👈 barra de búsqueda */}
+
       <h1>Catálogo de libros</h1>
 
       <section className="catalog">
