@@ -1,19 +1,27 @@
 .app-container {
   margin: 0;
   padding: 0;
-  display: flex;
+  display: flex;         
   min-height: 100vh;
 }
 .main-content {
   flex: 1;
-  padding: 20px;
+  display: flex;          
+  flex-direction: column;
+  min-height: 100vh; 
   background-color: #f4f6f8;
-  min-height: 100vh;
   font-family: "Sansita", sans-serif;
+}
+.content {
+  flex: 1;              
+  padding: 20px;
 }
 
 .main-content h1 {
   margin-bottom: 20px;
+  margin-left: 15px;
   color: #333;
 }
-
+.footer{
+  margin-top: auto;
+}

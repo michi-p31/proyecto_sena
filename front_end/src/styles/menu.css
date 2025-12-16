@@ -5,10 +5,11 @@ body{
 }
 .sidebar{
     width: 220px;
-    background-color: #1e293b;
-    color: white;
+    background-color: white;
+    color: #1e293b;
     padding: 20px;
     font-family: "Sansita", sans-serif;
+    font-size: 25px;
     margin-top: 0%;
 }
 .logo {
